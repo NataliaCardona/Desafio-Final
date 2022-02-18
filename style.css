@@ -78,6 +78,10 @@
 footer {
     background-color: var(--fondo2);
 }
+
+.active {
+    color: var(--fondo2);
+}
  
 
 
