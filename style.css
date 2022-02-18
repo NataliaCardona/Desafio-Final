@@ -79,8 +79,28 @@ footer {
     background-color: var(--fondo2);
 }
 
-.active {
-    color: var(--fondo2);
+.about_name {
+    color: var(--texto);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 38px;
+}
+
+.i_am_a {
+    color: var(--texto);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 26px;
+}
+
+.about { 
+    color: var(--texto);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+
+.values { 
+    color: var(--texto);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
 }
  
 
