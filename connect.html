@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Fin Bootstrap -->
+
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Fin CSS-->
@@ -23,70 +27,97 @@
 </head>
 <body>
 
-    <div class="grid-container-connect">
-        <!-- Header -->
+    <!-- Inicio Header -->
 
-        <header class="header">
+    <header class="container">
 
-            <nav class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light mb-5 mt-2">
+
+            <div class="container-fluid ">
     
-                <a href="index.html">
-                        <img class="logo" src="imagenes/logo.png" alt="Logo transparente">
-                </a>
+              <a class="navbar-brand" href="index.html">
+                  <img src="/imagenes/logo.png" alt="Logo" width="50" height="50">
+              </a>
     
-                <ul class="nav">
-                    <li class="item">
-                        <a href="work.html">My Work</a>
-                    </li>
-                    <li class="item">
-                        <a href="about.html">About</a>
-                    </li>
-                    <li class="item">
-                        <a href="connect.html">Connect</a>
-                    </li>
-                </ul>
-            </nav>
+              <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
     
-        </header>
+                <div class="navbar-nav">
+                  <a class="nav-link texto-nav" href="work.html">My Work</a>
+                  <a class="nav-link texto-nav" href="about.html">About</a>
+                  <a class="nav-link active texto-nav" aria-current="page" href="connect.html">Connect</a>
+                </div>
+    
+              </div>
+    
+            </div>
+    
+          </nav>
+
+    </header>
 
     <!-- Fin Header -->
-   
 
-<!-- Forma de Contacto -->
+    <!-- Inicio Sección 1 - Connect -->
 
-<section class="section-connect">
+    <section class="container">
 
-    <div class="nat-2">
-        <img src="/imagenes/nat2.png" alt="Foto Natalia">
-    </div>
+        <div class="row mt-5">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <img src="/imagenes/nat2.png" alt="Foto Natalia">
+            </div>
 
-    <div class="form">
-        
-        <div class="lets-connect">
-            <h1 class="connect">
-            <strong>Let´s Connect!</strong>
-        </h1>
-    
-        <h4 class="myemail">
-            nataliacardonaferreira@gmail.com
-        </h4>
-        </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
 
-        <form>
-            <input class="name" type="text" name="nombre" placeholder="Your Name" /><br>
-            <input class="email" type="email" name="email" placeholder="Email" /><br>
-        
-            <!-- Casilla de Mensajes -->
-            <textarea class="mensaje" cols="15" rows="4" placeholder="Mensaje"></textarea>
-            <!-- Fin Casilla de Mensajes -->
-            
-            <!-- Botón Enviar -->
-            <input class="botonsend" type="submit" value="Send"/>
-            <!-- Fin Botón Enviar-->
-        
-        </form>
-        <!-- Fin Forma de Contacto -->
-    </div>
+                <p class="connect">
+                    <strong>Let´s Connect!</strong>
+                </p>
+
+                <p class="myemail">
+                    nataliacardonaferreira@gmail.com
+                </p>
+
+                <form>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label texto">
+                            Your Name
+                        </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label texto">
+                          Email address
+                        </label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text texto-caption">We'll never share your email with anyone else.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label texto">
+                         Message
+                        </label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label texto-nav" for="exampleCheck1">Join Newsletter</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary px-5 boton">Send</button>
+
+                  </form>
+         
+
+                
+            </div>
+
+          </div>
+
+    </section>
+
+    <!-- Fin Sección 1 - Connect -->
+
 
 
 
@@ -97,6 +128,11 @@
   <script>
     AOS.init();
   </script>
+
+   <!-- Inicio Bootstrap -->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+   <!-- Fin Bootstrap -->
 
 </body>
 </html>

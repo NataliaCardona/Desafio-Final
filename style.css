@@ -102,6 +102,35 @@ footer {
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
 }
+
+.connect {
+    color: var(--texto);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 38px;
+}
+
+.myemail {
+    color: var(--texto);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+
+.texto {
+    color: var(--texto);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 14px;
+}
+
+.texto-caption {
+    color: var(--texto);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+
+.boton {
+    background-color: var(--fondo2);
+    border: none;
+}
  
 
 
