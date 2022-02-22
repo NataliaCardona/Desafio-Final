@@ -19,6 +19,10 @@
   
  }
 
+ img {
+    width: 100%;
+ }
+
  body {
      background-color: var(--fondo1);
  }
@@ -91,16 +95,21 @@ footer {
     font-size: 26px;
 }
 
+.img_nat {
+    width: 90%;
+    margin-bottom: 30px;
+}
+
 .about { 
     color: var(--texto);
     font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .values { 
     color: var(--texto);
     font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .connect {
@@ -131,6 +140,8 @@ footer {
     background-color: var(--fondo2);
     border: none;
 }
+
+
  
 
 
