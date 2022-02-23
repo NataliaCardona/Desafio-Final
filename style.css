@@ -29,9 +29,16 @@
  
 
 .texto-nav {
+    margin-left: 20px;
     color: var(--texto);
     font-size: 16px;
     font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-nav a:hover {
+    color: #111;
+    transform: scale(1.2);
+    text-shadow: none;
 }
 
 .intro-pequeño {
@@ -53,6 +60,46 @@
     font-family: 'Quicksand', sans-serif;
     font-size: 35px;
  }
+
+ .project {
+     position: relative;
+ }
+
+.project img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 12px;
+    right: 0;
+    height: 361.11;
+    width: 451px;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #e4dff3;
+  }
+
+.project:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: var(--texto);
+    font-size: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 .project_title {
     color: var(--texto);
@@ -80,7 +127,8 @@
 }
 
 footer {
-    background-color: var(--fondo2);
+    background-image: linear-gradient(to right, #e4dff3, #b6bacf );
+    width: 100%;
 }
 
 .about_name {
@@ -139,6 +187,11 @@ footer {
 .boton {
     background-color: var(--fondo2);
     border: none;
+    margin-left: 20px;
+}
+
+.boton:hover {
+    background-color: #7383cc;
 }
 
 
