@@ -1,0 +1,26 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaCardona/Desafio-Final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NataliaCardona/Desafio-Final/issues"
+  },
+  "homepage": "https://github.com/NataliaCardona/Desafio-Final#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}
