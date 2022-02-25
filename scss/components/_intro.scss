@@ -1,0 +1,20 @@
+@import '../base/variables';
+
+.container {
+
+    .intro-pequeño {
+        color: $text-color;
+        font-size: $heading3;
+        font-family: $fuente1;
+        padding-right: 200px;
+    }
+
+    .intro-grande {
+        color: $text-color;
+        font-size: $heading1;
+        font-family: $fuente2;
+        padding-right: 200px;
+    }
+
+
+}

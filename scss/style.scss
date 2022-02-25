@@ -1,0 +1,23 @@
+/* General */
+@import 'components/header';
+@import 'components/footer';
+
+/* Index */
+@import 'components/intro';
+@import 'components/featured';
+
+/* About */
+@import 'components/about';
+
+/* Connect */
+@import 'components/connect';
+
+
+/* Style General */
+img {
+    width: 100%;
+ }
+
+ body {
+     background-color: $bg-color-general;
+ }

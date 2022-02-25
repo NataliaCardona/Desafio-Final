@@ -1,0 +1,40 @@
+@import '../base/variables';
+
+.img_nat2 {
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.connect {
+    color: $text-color;
+    font-family: $fuente2;
+    font-size: $heading1;
+}
+
+.myemail {
+    color: $text-color;
+    font-family: $fuente1;
+    font-size: $heading4;
+}
+
+.texto {
+    color: $text-color;
+    font-family: $fuente2;
+    font-size: $caption2;
+}
+
+.texto-caption {
+    color: $text-color;
+    font-family: $fuente1;
+    font-size: $caption2;
+}
+
+.boton {
+    background-color: $bg-color-footer1;
+    border: none;
+    margin-left: 20px;
+
+    &:hover {
+        background-color: $boton-hover;
+    }
+}

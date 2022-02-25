@@ -1,0 +1,19 @@
+@import '../base/variables';
+
+
+.texto-nav {
+    margin-left: 20px;
+    color: $text-color;
+    font-size: $caption2;
+    font-family: $fuente1;
+}
+
+.navbar-nav {
+
+    a:hover {
+        color: $text-color-hover;
+        transform: scale(1.2);
+        text-shadow: none;
+
+    }
+}

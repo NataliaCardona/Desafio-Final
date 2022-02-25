@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* General */
+.texto-nav {
+  margin-left: 20px;
+  color: #132335;
+  font-size: 14px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.navbar-nav a:hover {
+  color: #050b13;
+  transform: scale(1.2);
+  text-shadow: none;
+}
+
+.inquiries {
+  color: #132335;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+
+.thanks {
+  color: #132335;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 22px;
+}
+
+footer {
+  background-image: linear-gradient(to right, #e4dff3, #b6bacf);
+  width: 100%;
+}
+
+/* Index */
+.container .intro-pequeño {
+  color: #132335;
+  font-size: 26px;
+  font-family: "Quicksand", sans-serif;
+  padding-right: 200px;
+}
+.container .intro-grande {
+  color: #132335;
+  font-size: 38px;
+  font-family: "Alfa Slab One", cursive;
+  padding-right: 200px;
+}
+
+.featured {
+  color: #132335;
+  font-family: "Quicksand", sans-serif;
+  font-size: 35px;
+}
+
+.project {
+  position: relative;
+}
+
+.project img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 12px;
+  right: 0;
+  height: 361.11;
+  width: 451px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #e4dff3;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: var(--texto);
+  font-size: 22px;
+  font-family: "Alfa Slab One", cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project_title {
+  color: #132335;
+  font-size: 22px;
+  font-family: "Alfa Slab One", cursive;
+  padding-left: 40px;
+}
+
+.project_text {
+  color: #132335;
+  font-size: 16px;
+  padding-left: 40px;
+}
+
+/* About */
+.about_name {
+  color: #132335;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 38px;
+}
+
+.i_am_a {
+  color: #132335;
+  font-family: "Quicksand", sans-serif;
+  font-size: 26px;
+}
+
+.img_nat {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.about {
+  color: #132335;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+
+.values {
+  color: #132335;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+
+/* Connect */
+.img_nat2 {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.connect {
+  color: #132335;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 38px;
+}
+
+.myemail {
+  color: #132335;
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+}
+
+.texto {
+  color: #132335;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 14px;
+}
+
+.texto-caption {
+  color: #132335;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+}
+
+.boton {
+  background-color: #e4dff3;
+  border: none;
+  margin-left: 20px;
+}
+.boton:hover {
+  background-color: #7383cc;
+}
+
+/* Style General */
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+/*# sourceMappingURL=style.css.map */

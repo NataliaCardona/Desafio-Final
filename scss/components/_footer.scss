@@ -1,0 +1,18 @@
+@import '../base/variables';
+
+.inquiries {
+    color: $text-color;
+    font-family: $fuente1;
+    font-size: $parrafos;
+}
+
+.thanks {
+    color: $text-color;
+    font-family: $fuente2;
+    font-size: $heading4;
+}
+
+footer {
+    background-image: linear-gradient(to right, $bg-color-footer1, $bg-color-footer2 );
+    width: 100%;
+}

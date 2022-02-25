@@ -5,17 +5,6 @@
    
     /* Color de texto */
     --texto: #132335;
-
-    /* 
-   --h1: 38px;
-   --h2: 35px;
-   --h3: 26px;
-   --h4: 22px;
-   --parrafos: 18px;
-   --caption: 16px;
-   --caption2: 14px;
-   --input: 12px;
-   */
   
  }
 
@@ -61,7 +50,7 @@
     font-size: 35px;
  }
 
- .project {
+.project {
      position: relative;
  }
 
