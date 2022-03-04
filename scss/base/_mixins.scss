@@ -1,0 +1,7 @@
+@mixin colores($color) {
+    background-color: $color;
+}
+
+body {
+    @include colores(#f6f6f6)
+}

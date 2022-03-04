@@ -1,0 +1,12 @@
+%posicion-texto {
+    display: flex;
+    justify-content: center;
+}
+
+.inquiries {
+    @extend %posicion-texto;
+}
+
+.thanks {
+    @extend %posicion-texto;
+}

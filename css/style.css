@@ -172,13 +172,21 @@ footer {
   background-color: #7383cc;
 }
 
+/* Extends */
+.thanks, .inquiries {
+  display: flex;
+  justify-content: center;
+}
+
+/* Mixins */
+/* Extends */
+body {
+  background-color: #f6f6f6;
+}
+
 /* Style General */
 img {
   width: 100%;
-}
-
-body {
-  background-color: #f6f6f6;
 }
 
 /*# sourceMappingURL=style.css.map */

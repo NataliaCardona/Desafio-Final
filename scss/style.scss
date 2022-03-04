@@ -12,12 +12,15 @@
 /* Connect */
 @import 'components/connect';
 
+/* Extends */
+@import 'base/extends';
+
+/* Mixins */
+/* Extends */
+@import 'base/mixins';
 
 /* Style General */
 img {
     width: 100%;
  }
 
- body {
-     background-color: $bg-color-general;
- }
